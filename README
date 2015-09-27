@@ -1,0 +1,12 @@
+
+DEPENDENCIES:
+nodejs
+python
+
+COMMANDS: basically we're going to cat files, and stream them into our script
+
+javascript:
+cat stdin.dat | node javascript.js
+
+python:
+
