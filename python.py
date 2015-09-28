@@ -1,7 +1,8 @@
-def solveMeFirst(a,b):
-  return a+b
+#!/usr/bin/python3
+import sys
 
-num1 = int(input())
-num2 = int(input())
-res = solveMeFirst(num1,num2)
-print(res)
+n = int(sys.stdin.readline())
+inputArray = str(sys.stdin.readline())
+
+
+sys.stdout.write(inputArray)

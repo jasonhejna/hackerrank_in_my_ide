@@ -9,12 +9,11 @@ Tutorial:
 
 DEPENDENCIES:
     unix based os
-    nodejs
-    python
+    languge(s) you'll be using (in my case it's nodejs, and python3)
 
 
 COMMANDS:
-    basically we're going to cat files, and stream them into our script
+    we're going to cat files, and stream them into our script
 
     javascript:
         cat stdin.dat | node javascript.js
