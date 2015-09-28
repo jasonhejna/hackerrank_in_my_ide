@@ -1,12 +1,22 @@
 
+Tutorial:
+    1) make sure you have your language of choice installed
+    2) you should just be able to take the code from hackerrank and paste it into your file (ex: javascript.js)
+    3) put the data hackerrank wants us to stream in the stdin.dat file
+    4) issue the command for the language your using (ex: cat stdin.dat | node javascript.js)
+
+
 DEPENDENCIES:
-nodejs
-python
+    unix based os
+    nodejs
+    python
 
-COMMANDS: basically we're going to cat files, and stream them into our script
 
-javascript:
-cat stdin.dat | node javascript.js
+COMMANDS:
+    basically we're going to cat files, and stream them into our script
 
-python:
+    javascript:
+    cat stdin.dat | node javascript.js
 
+    python:
+    cat stdin.dat | python python.py
