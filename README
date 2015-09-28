@@ -1,9 +1,10 @@
 
 Tutorial:
     1) make sure you have your language of choice installed
-    2) you should just be able to take the code from hackerrank and paste it into your file (ex: javascript.js)
-    3) put the data hackerrank wants us to stream in the stdin.dat file
-    4) issue the command for the language your using (ex: cat stdin.dat | node javascript.js)
+    2) take the code sample from hackerrank and paste it into your file (ex: javascript.js)
+    3) put the data hackerrank wants us to use in the stdin.dat file
+    4) run: issue the command for the language your using (ex: cat stdin.dat | node javascript.js)
+    5) write your code, and code luck with the code test!
 
 
 DEPENDENCIES:
