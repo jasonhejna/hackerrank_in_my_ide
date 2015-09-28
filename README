@@ -2,9 +2,9 @@
 Tutorial:
     1) make sure you have your language of choice installed
     2) take the code sample from hackerrank and paste it into your file (ex: javascript.js)
-    3) put the data hackerrank wants us to use in the stdin.dat file
+    3) copy the input data hackerrank wants us to use into the stdin.dat file
     4) run: issue the command for the language you're using (ex: cat stdin.dat | node javascript.js)
-    5) write your code, and code luck with the code test!
+    5) write your code in the file (ex: javascript.js), and code luck with the code test!
 
 
 DEPENDENCIES:
@@ -13,10 +13,11 @@ DEPENDENCIES:
 
 
 COMMANDS:
-    we're going to cat files, and stream them into our script
+    we're going to cat our stdin.dat file, and stream the contents to our script
 
     javascript:
         cat stdin.dat | node javascript.js
 
     python:
         cat stdin.dat | python python.py
+        note: use sys.stdin.readline() instead of input(). Will work the same on hackerrank.
