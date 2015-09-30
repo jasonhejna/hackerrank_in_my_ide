@@ -1,30 +1,27 @@
 var main = {
-    letterArr: null,
+    n: null,
     parse: function (_input) {
 
-        this.letterArr       = _input.toUpperCase().split('');
+        this.n       = parseFloat(_input);
+        
     },
     runMyCode: function () {
-        var asciiLetter = null;
-        var inputLetter = null;
-        var j = 0;
-
-        if ( this.letterArr.length < 1 || this.letterArr.length > 1000 ) {
-            throw {
-                name:    'rangeError',
-                message: 'input is out of expected range'
-            };
-        }
-
-        for (i = 65; i <= 90; i++) {
-            asciiLetter = String.fromCharCode(i);
-            if ( this.letterArr.indexOf(asciiLetter) === -1 ) {
-                return 'not pangram';
+        var stairCase = ''
+        for (var i = 1; i < (this.n+1); i++) {
+            
+            var stair = ''
+            for (var j = 0; j < (this.n-i); j++) {
+                
+                stair += ' '
             }
-            j++;
+            for (var k = 0; k < i; k++) {
+                
+                stair += '#'
+            }
+            stairCase += stair + '\n'
         }
 
-        return 'pangram';
+        return stairCase;
 
     }
 }
